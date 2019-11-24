@@ -1,0 +1,15 @@
+[(#REM)   
+ Formulaire SPIP CVT avec le plugin Saisies par l'exemple
+ Voir : http://www.spip-contrib.net/.?article3665
+ 
+  Parametres :
+  -* nom (obligatoire) : attributs name et id du bouton
+  -* texte (optionnel) : attribut value, par défaut Envoyer
+  -* class (optionnel) : attribut class, par défaut submit
+  
+  Exemple d'appel :
+	[(#SAISIE{mon_submit, envoyer,
+    texte=Ok 
+	})]
+][
+<input type="submit" name="(#ENV{nom})" class="#ENV{class,submit}" id="bouton_#ENV{nom}" value="#ENV{texte,Envoyer}" />]

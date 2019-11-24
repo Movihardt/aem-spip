@@ -1,0 +1,22 @@
+<paquet
+	prefix="deleg"
+	categorie="auteur"
+	version="0.0.1"
+	etat="dev"
+	compatibilite="[3.2.0;3.2.*]"
+	documentation="http://mobile-adenum.fr"
+	logo="images/delegation-32.png"
+>
+	<!-- Paquet généré le 2019-11-08 11:58:48 -->
+	<nom>Délégation</nom>
+	<auteur lien="http://mobile-adenum.fr">François Mauviard</auteur>
+	<licence>GNU/GPL</licence>
+	<pipeline nom="autoriser" inclure="deleg_autorisations.php" />
+	<pipeline nom="declarer_tables_objets_sql" inclure="base/delegations.php" />
+	<pipeline nom="declarer_tables_interfaces" inclure="base/delegations.php" />
+	<pipeline nom="insert_head_css" inclure="deleg_pipelines.php" />
+	<necessite nom="notation" compatibilite="[2.4.0;2.*.*]" />
+	<necessite nom="saisies" compatibilite="[3.28.13;3.*.*]" />
+
+
+</paquet>
