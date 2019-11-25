@@ -62,7 +62,7 @@ function deleg_inserer($objet, $id_objet){
 }
 
 /**
- * Modifier une délégation existante. J'en suis à peu près là. a priori, c'est bon pour deleg-supprimer (c'est fait). a nouveau, il va falloir tout corriger en fonction du nom des champs après correction.
+ * Modifier une délégation existante. J'en suis à peu près là. A priori, c'est bon pour deleg-supprimer (c'est fait). a nouveau, il va falloir tout corriger en fonction du nom des champs après correction.
  *
  * @param int $id_notation
  * @param array|null $set

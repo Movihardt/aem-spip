@@ -12,7 +12,7 @@
 	<auteur lien="http://mobile-adenum.fr">François Mauviard</auteur>
 	<licence>GNU/GPL</licence>
 	<pipeline nom="autoriser" inclure="deleg_autorisations.php" />
-	<pipeline nom="declarer_tables_objets_sql" inclure="base/delegations.php" />
+	<pipeline nom="declarer_tables_principales" inclure="base/delegations.php" />
 	<pipeline nom="declarer_tables_interfaces" inclure="base/delegations.php" />
 	<pipeline nom="insert_head_css" inclure="deleg_pipelines.php" />
 	<necessite nom="notation" compatibilite="[2.4.0;2.*.*]" />

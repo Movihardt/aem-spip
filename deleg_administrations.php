@@ -1,6 +1,6 @@
 <?php
 
-function chats_upgrade($nom_meta_base_version, $version_cible){
+function deleg_upgrade($nom_meta_base_version, $version_cible){
  
 	$maj = array();
 	$maj['create'] = array(
@@ -11,7 +11,7 @@ function chats_upgrade($nom_meta_base_version, $version_cible){
 	maj_plugin($nom_meta_base_version, $version_cible, $maj);
 }
  
-function chats_vider_tables($nom_meta_base_version) {
+function deleg_vider_tables($nom_meta_base_version) {
 	sql_drop_table("spip_delegations");
 	effacer_meta($nom_meta_base_version);
 }
